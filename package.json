@@ -15,9 +15,6 @@
   },
   "scripts": {
     "start": "webpack-dev-server --open  ",
-    "predeploy": "npm run build",
-    "build": "npm run build",
-    "deploy": "gh-pages -d build",
     "create": "webpack"
   },
   "author": "Pawan Tiwari",
@@ -25,7 +22,6 @@
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "bootstrap": "^4.4.1",
-    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
