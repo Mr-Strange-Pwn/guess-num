@@ -16,6 +16,7 @@
   "scripts": {
     "start": "webpack-dev-server --open  ",
     "predeploy": "npm run build",
+    "build": "npm run build",
     "deploy": "gh-pages -d build",
     "create": "webpack"
   },
