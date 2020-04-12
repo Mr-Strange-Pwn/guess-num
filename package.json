@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --open  ",
-    "create": "webpack"
+    "create": "webpack",
+    "build": "webpack --mode production"
   },
   "author": "Pawan Tiwari",
   "license": "ISC",
